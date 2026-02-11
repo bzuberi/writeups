@@ -29,7 +29,11 @@ Once a key leaves its original boundary, it becomes sticky. It leaks into places
 - Backups And Snapshots: VM images, volume backups, storage replication, and retention systems.
 - Build And Deployment Artifacts: CI logs, container layers, temp directories, and debug output.
 - Human Channels: Ticket attachments, chat histories, email threads, shared drives, and paste tools.
-- Even if you delete the original file, you cannot prove where copies landed. You traded a hard security boundary, exclusive custody, for unbounded operational risk that you cannot measure cleanly.
+
+Even if you delete the original file, you cannot prove where copies landed. You traded a hard security boundary, exclusive custody, for unbounded operational risk that you cannot measure cleanly.
+
+![Key locality diagram](images/keylocality.png)
+
 
 **Real-World Proof**
 
