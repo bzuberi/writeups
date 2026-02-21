@@ -59,6 +59,8 @@ Engineers should internalize the failure mode: a token can be mathematically val
 
 ### Storm-0558 Signing Key Attack Hypothesis
 
+![Storm-0558 Signing Key Attack Hypothesis diagram](images/KeyExfil.png)
+
 Microsoft’s published investigation describes a most likely acquisition path along these lines: [2]
 
 - A Microsoft engineer’s corporate account was compromised using an access token obtained from a malware-infected machine. [2]  
